@@ -1,0 +1,80 @@
+/* Reseta estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(254, 250, 224);
+    color: rgb(51, 51, 51);
+}
+
+header {
+    background-color: rgb(96, 108, 56);
+    color: rgb(254, 250, 224);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: rgb(40, 54, 24);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(254, 250, 224);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+h4 a {
+    color: rgb(49, 75, 49);
+    text-decoration: none;
+}
+
+h4 a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(40, 54, 24);
+    color: rgb(254, 250, 224);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
