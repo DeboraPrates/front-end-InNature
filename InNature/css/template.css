@@ -1,0 +1,339 @@
+/*fazendo reset*/
+body, h1, small {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*largura e altura definidas incluem o conteúdo, o padding e a borda*/
+}
+
+body {
+    background-color: rgb(211, 195, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /*controla o espaçamento entre linhas de texto*/
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(96, 108, 56);
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 3rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+#logo {
+    display: flex; 
+    align-items: center;
+}
+
+#logo img {
+    height: 5rem;
+    margin-right: 3rem;
+}
+
+#logo h1 {
+    font-family: 'Satisfy';
+    font-size: 2rem;
+    margin: 0;
+    color: rgb(104, 32, 26);
+}
+
+#logo small {
+    font-family: 'Baskervville';
+    display: block; /*faz com que o elemento se comporte como um bloco*/
+    font-size: 1.5rem;
+    margin: 0;
+    color: rgb(60, 21, 24);
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+#headerSearch {
+    padding: .3rem;
+    border: none;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+#headerButton {
+    border: 20rem;
+    background-color: rgb(60, 21, 24);
+    color: rgb(176, 105, 105);
+}
+
+button {
+    background-color: rgb(104, 32, 26);
+    color: rgb(176, 105, 105);
+    border: none;
+    padding: .3rem .6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 1rem;
+}
+
+/*estilização da barra de menu*/
+#mainMenu {
+    background-color: rgb(40, 54, 24);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: .6rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(176, 105, 105);
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Nunito';
+}
+
+nav a i {
+    margin-right: .5rem;
+}
+
+nav a:hover {
+    color: rgb(165, 67, 67);
+}
+
+.columns {
+    display: flex;
+    column-width: 200px;
+    column-gap: 40px;
+    margin-left: 3%;
+}
+
+.columns .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columns img {
+    max-width: 100%;
+    height: 45%;
+    display: block; /*remove espaços em branco ao redor da imagem*/
+    margin: 0 auto;
+    margin-left: 3%;
+}
+
+.columns p {
+    flex: 1; /*cada parágrafo ocupará uma coluna*/
+    margin-right: 20px;
+    margin-top: 3;
+}
+
+.column:last-child {
+    margin-right: 0; /*remove o espaçamento da última coluna*/
+}
+
+.column p {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(45, 25, 25);
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Nunito';
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(117, 46, 46);
+} 
+
+/*estilização dos artigos*/
+
+.articleTitle {
+    color: rgb(117, 46, 46);
+}
+
+.articles {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /*os itens flexíveis vão para a próxima linha se não houver mais espaço*/
+    gap: 1rem;
+    
+}
+
+.article {
+    background: rgb(157, 164, 131);
+    border: .1rem solid rgba(121, 128, 96, 0.867);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 18rem; /*define a largura máxima que os artigos podem ter*/
+    box-shadow: 0 .1 .25 rgba(0, 0, 0, .1);
+    align-items: center;
+}
+
+.article a {
+    text-decoration: none;
+    color: rgb(117, 46, 46);
+}
+
+.article:hover {
+    background-color: rgb(104, 111, 75);
+    transition-duration: 0.3s;
+}
+
+.article h2 {
+    margin-top: 0;
+}
+
+.article p {
+    font-family: 'Nunito';
+}
+
+footer {
+    background-color: rgb(40, 54, 24);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footerTop {
+    display: flex;
+    justify-content: space-between; /*espaça os elementos ao longo da linha*/
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#footerTop a {
+    color: rgb(176, 105, 105);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#footerBottom nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#footerBottom nav a {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+#footerBottom nav a:hover {
+    color: rgb(117, 46, 46);
+}
+
+#footerBottom nav i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+#socialMedia {
+    text-align: center; /*centraliza o título*/
+    margin-bottom: 20px;
+}
+
+#socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /*espaçamento entre as colunas*/
+    margin-top: 10px;
+}
+
+#socialLinks span {
+    display: flex;
+    flex-direction: column; /*faz os links ficarem em coluna*/
+    align-items: center;
+}
+
+#socialLinks a {
+    text-decoration: none;
+    color: rgb(176, 105, 105);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#socialLinks a:hover {
+    color: rgb(117, 46, 46);
+}
+
+hr {
+    margin: .5rem auto;
+    border: 1px;
+    width: 80%;
+}
+
+/*media queries para responsividade*/
+
+/*ajuste para telas menores*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    #logo {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .columns {
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
+
+/*ajuste para telas pequenas*/
+@media (max-width: 480px) {
+    header h1 {
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #logo img {
+        height: 3rem;
+    }
+
+    .columns img {
+        height: auto;
+    }
+
+    .article {
+        max-width: 100%;
+    }
+
+    #footerTop {
+        flex-direction: column;
+    }
+
+    #footerBottom nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

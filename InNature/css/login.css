@@ -1,0 +1,383 @@
+body, h1, small {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 195, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(96, 108, 56);
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 3rem;
+}
+
+main {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+#logo {
+    display: flex; 
+    align-items: center;
+}
+
+#logo img {
+    height: 5rem;
+    margin-right: 3rem;
+}
+
+#logo h1 {
+    font-family: 'Satisfy';
+    font-size: 2rem;
+    margin: 0;
+    color: rgb(104, 32, 26);
+}
+
+#logo small {
+    font-family: 'Baskervville';
+    display: block;
+    font-size: 1.5rem;
+    margin: 0;
+    color: rgb(60, 21, 24);
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+#headerSearch {
+    padding: .3rem;
+    border: none;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+#headerButton {
+    background-color: rgb(104, 32, 26);
+    color: rgb(176, 105, 105);
+    border: none;
+    padding: .3rem .6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+main button {
+    font-family: 'Nunito';
+    font-size: medium;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: .10;
+    border-radius: .5rem;
+    opacity: .6;
+}
+
+main button:hover {
+    background-color: rgb(104, 32, 26); 
+    color: rgb(214, 166, 166);
+    opacity: 1;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 1rem;
+}
+
+#mainMenu {
+    background-color: rgb(40, 54, 24);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: .6rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(176, 105, 105);
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+nav a i {
+    margin-right: .5rem;
+}
+
+nav a:hover {
+    color: rgb(165, 67, 67);
+}
+
+#signup {
+    flex: 2;
+    padding: 2rem;
+    box-shadow: 0 4px 8px;
+    max-width: 500px;
+    margin: auto;
+    margin-right: 200px;
+}
+
+#signup h2 {
+    font-family: 'Nunito';
+}
+
+#signup p {
+    font-family: 'Nunito';
+}
+
+#signupTitle {
+    color: rgb(26, 33, 17);
+}
+
+main label {
+    display: block;
+    padding: 0 0 .5rem .25rem;
+}
+
+main form {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
+
+main input,
+main button {
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+main input {
+    width: 100%;
+    border: 1px solid rgb(165, 67, 67);
+    border-bottom: 2px solid rgb(165, 67, 67);
+    border-right: 2px solid rgb(165, 67, 67);
+    background-color: rgba(176, 105, 105, 0.399);
+}
+
+main input:valid {
+    border: 1px solid rgb(96, 108, 56);
+    border-bottom: 2px solid rgb(96, 108, 56);
+    border-right: 2px solid rgb(96, 108, 56);
+    background-color: rgba(177, 193, 126, 0.804);
+}
+
+main form small {
+    color: rgb(128, 128, 128);
+}
+
+article {
+    flex: 3;
+    background-color: rgba(118, 155, 118, 0.763);
+    padding: 1rem;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+aside {
+    flex: 1;
+    background-color: rgb(161, 141, 117);
+    padding: 1rem;
+    border-radius: 20px;
+    max-width: 25%;
+}
+
+aside #instaIcon {
+    background: linear-gradient(#833ab4, #e1306c, #fcaf45);
+    border: 0;
+    border-radius: 20px;
+}
+
+main aside div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main aside div i {
+    margin: .5rem 0;
+}
+
+footer {
+    background-color: rgb(40, 54, 24);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#footerTop a {
+    color: rgb(176, 105, 105);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#footerBottom nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#footerBottom nav a {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+#footerBottom nav a:hover {
+    color: rgb(117, 46, 46);
+}
+
+#footerBottom nav i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+#socialMedia {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+#socialLinks span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#socialLinks a {
+    text-decoration: none;
+    color: rgb(176, 105, 105);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#socialLinks a:hover {
+    color: rgb(117, 46, 46);
+}
+
+hr {
+    margin: .5rem auto;
+    border: 1px;
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #logo img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    #logo h1 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #headerSearch {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    #headerButton {
+        width: 100%;
+    }
+
+    article, aside {
+        flex: 1 1 100%;
+        margin: 0;
+    }
+
+    #signup {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    #logo img {
+        margin-right: 2rem;
+    }
+
+    #logo h1 {
+        font-size: 1.75rem;
+    }
+
+    form {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #headerSearch {
+        margin-right: 1rem;
+    }
+
+    #headerButton {
+        width: auto;
+    }
+
+    article {
+        margin-right: 1rem;
+    }
+
+    aside {
+        max-width: 30%;
+    }
+
+    #signup {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1025px) {
+    #signup {
+        margin-right: 200px;
+    }
+}

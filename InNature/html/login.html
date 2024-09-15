@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/InNature/img/badge-leaf (1).ico" type="image/x-icon">
+
+    <!--carrega o css do site-->
+    <link rel="stylesheet" href="/InNature/css/login.css">
+
+    <!--carrega as fontes usadas no site-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Nunito:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Nunito:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Satisfy&display=swap" rel="stylesheet">
+
+ 
+
+    <title>InNature | Faça Login</title>
+
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+        <img src="/InNature/img/badge-leaf (1).png" alt="Logo do InNature">
+            <a href="" title="Página Inicial" style="text-decoration: none;"> 
+                    <h1> 
+                        InNature 
+                        <br>
+                        <small>Um Mundo mais Verde</small>
+                    </h1>    
+                </a>
+            </div>
+
+            <!-- barra de pesquisa da página inicial -->
+            <form action="search.html" method="get"> 
+                <input type="search" name="q" id="headerSearch" placeholder="Pesquisar por...">
+                <button type="submit" title="Iniciar busca" id="headerButton"><i
+                        class="fa-solid fa-magnifying-glass fa-fw"></i>
+                    </button>
+            </form>     
+    </header>
+
+
+    <!-- barra de navegação -->
+    <div id="mainMenu">
+        <nav>
+            <a href="template.html" title="Ir para a página inicial">
+                <i class="fa-solid fa-house fa-fw"></i>
+                <span>Início</span>
+            </a>
+
+            <a href="contacts.html" title="Ir para a aba de contatos">
+                <i class="fa-solid fa-comments fa-fw"></i>
+                <span>Contatos</span>
+            </a>
+
+            <a href="about.html" title="Sobre nós">
+                <i class="fa-solid fa-circle-info fa-fw"></i>
+                <span>Sobre</span>
+            </a>
+
+            <a href="policies.html" title="Políticas do site">
+                <i class="fa-solid fa-lock fa-fw"></i>
+                <span>Privacidade</span>
+            </a>
+
+            <a href="signup.html" title="Cadastre-se">
+                <i class="fa-solid fa-right-to-bracket fa-fw"></i>
+                <span>Cadastre-se</span>
+            </a>
+        
+        </nav>
+
+    </div>
+
+    <main>
+        <article id="signup">
+
+            <div id="signupTitle">
+
+            <h2>Faça Login</h2>
+            <p>Preencha os campos abaixo para acessar sua conta no InNature</p>
+            <form action="signup.html#" method="post">
+
+            </div>
+
+                <p>
+                    <label for="fieldEmail">Email:</label>
+                    <input type="email" name="email" id="fieldEmail" required>
+                </p>
+
+                <p>
+                    <label for="fieldPassword">Senha:</label>
+                    <input type="password" name="password" id="fieldPassword" required minlength="8">
+                    <small><p style="color: rgb(53, 53, 53);">Ainda não tem uma conta? <a href="/InNature/html/signup.html" style="text-decoration: none; color: rgb(156, 80, 80);">Faça cadastro</a></p></small>
+                </p>
+
+
+                <p>
+                    <button id="signupButton" type="submit">Entrar</button>
+                    <small>&larr; Clique somente uma vez</small>
+                </p>
+
+            </form>
+
+        </article>
+
+        <aside>
+            <h3 id="contatos"><i class="fa-solid fa-plus">Contatos</i></h3>
+            <p>Acesse nossas redes sociais para saber mais sobre o <strong>InNature</strong>.</p>
+
+            <div>
+                <a href="https://www.instagram.com/debora.v2005/" target="_blank" id="instaIcon" style="color: white;">
+                    <i class="fa-brands fa-instagram fa-fw fa-3x"></i>
+                </a>
+
+                <a href="https://bsky.app/profile/setarp.bsky.social" target="_blank">
+                    <i class="fa-brands fa-bluesky fa-fw fa-3x" style="color: rgb(1, 144, 255);"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/d%C3%A9bora-veloso-prates-soares-a23424268/" target="_blank"> 
+                    <i class="fa-brands fa-linkedin fa-fw fa-3x" style="color: rgb(0, 65, 130);"></i>
+                </a>
+
+                <a href="https://github.com/DeboraPrates">
+                    <i class="fa-brands fa-github fa-fw fa-3x" style="color: rgb(80, 60, 160);"></i>
+                </a>
+            </div>
+
+        </aside>
+
+    </main>
+
+       <!--footer-->
+       <footer>
+        <div class="footerBottom">
+
+            <div id="socialMedia">
+                <h3 style="color: rgb(145, 67, 67); text-align: center;">Redes Sociais</h3>
+            
+                <div id="socialLinks">
+                    <span id="sm1">
+                        <a href="https://www.instagram.com/debora.v2005/" target="_blank">
+                            <i class="fa-brands fa-instagram fa-fw"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://bsky.app/profile/setarp.bsky.social" target="_blank">
+                            <i class="fa-brands fa-bluesky fa-fw"></i>
+                            <span>Bluesky</span>
+                        </a>
+                    </span>
+            
+                    <span id="sm2">
+                        <a href="https://www.linkedin.com/in/d%C3%A9bora-veloso-prates-soares-a23424268/" target="_blank"> 
+                            <i class="fa-brands fa-linkedin fa-fw"></i>
+                            <span>Linkedin</span>
+                        </a>
+                        <a href="https://github.com/DeboraPrates">
+                            <i class="fa-brands fa-github fa-fw"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            
+
+    </nav>
+</div>
+</footer>
+<hr style="margin: .5rem; border: 1px solid transparent;">
+
+</body>
+</html>
